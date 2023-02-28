@@ -1,0 +1,21 @@
+{
+  "name": "niche_product_server_site_updated",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.18.2",
+    "firebase": "^9.15.0",
+    "firebase-admin": "^10.0.0",
+    "mongodb": "^4.13.0",
+    "mongodb-atlas-api-client": "^2.32.0",
+    "nodemon": "^2.0.20"
+  }
+}
