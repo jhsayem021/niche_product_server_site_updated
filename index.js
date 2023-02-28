@@ -13,11 +13,11 @@ const port = process.env.PORT || 5000;
 
 // firebase admin initialization 
 
-// const serviceAccount = require("./road-bolt-39afe-firebase-adminsdk-t5huu-853309f632.json");
+const serviceAccount = require("./road-bolt-39afe-firebase-adminsdk-t5huu-853309f632.json");
 
-// admin.initializeApp({
-//   credential: admin.credential.cert(serviceAccount)
-// });
+admin.initializeApp({
+  credential: admin.credential.cert(serviceAccount)
+});
 
 // middleware
 app.use(cors());
